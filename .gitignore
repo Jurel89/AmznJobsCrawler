@@ -1,0 +1,6 @@
+/lambdaFunctions/amznJobsEU5MySqlInsert/rds_config.py
+/lambdaFunctions/amznJobsMainFacetsMySqlInsert/rds_config.py
+/lambdaFunctions/amznJobsDailyEmailUpdate/smtp_config.py
+/lambdaFunctions/amznJobsDailyEmailUpdate/rds_config.py
+/lambdaFunctions/amznJobsDailyCreatedReqsInsert/rds_config.py
+/lambdaFunctions/amznJobsDailyClosedReqsInsert/rds_config.py
