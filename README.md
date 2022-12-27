@@ -52,7 +52,7 @@ Given that the API directly gives us a json file, we will be storing those origi
 
 Since this whole process runs in seconds, we will go for AWS Lambda as the serverless compute service to extract the information, triggered by a time schedule in EventBridge, store it in S3, parse it, and insert that in Amazon RDS MySql Instance. There are better alternatives, but for the sake of time and expenses, this seems like a "good enough" approach.
 
-![alt text](https://github.com/Jurel89/amznJobsScraper/blob/main/localTesting/statics/AmznJobsCrawlerArchitecture.drawio.png?raw=true)
+![alt text](https://github.com/Jurel89/amznJobsCrawler/blob/main/localTesting/statics/AmznJobsCrawlerArchitecture.drawio.png?raw=true)
 
 ### Considerations
 
