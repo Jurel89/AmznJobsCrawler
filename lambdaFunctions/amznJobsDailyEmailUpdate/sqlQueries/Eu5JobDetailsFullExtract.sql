@@ -1,0 +1,4 @@
+SELECT 
+	ddrd.*
+FROM 
+	BOOKER.D_DAILY_REQ_DETAILS ddrd 

@@ -1,0 +1,6 @@
+SELECT 
+	ddcrd.*
+FROM 
+	BOOKER.D_DAILY_CLOSED_REQ_DETAILS ddcrd
+WHERE 
+	ddcrd.snapshot_date in (SELECT max(snapshot_date) FROM BOOKER.D_DAILY_CLOSED_REQ_DETAILS)
